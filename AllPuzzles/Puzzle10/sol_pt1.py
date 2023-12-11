@@ -38,7 +38,7 @@ def main():
 
     print(scoord)
 
-    srep = 'F'
+    srep = '7'
     data[scoord[0]][scoord[1]] = srep
     pd = PointDir(scoord[0], scoord[1], CD.EAST)
     inds = [pd]  # start indices
